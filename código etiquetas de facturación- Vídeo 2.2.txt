@@ -1,0 +1,23 @@
+Aula 2 - Vídeo 2.2- Agregando personalizaciones al gráfico de barras
+"layer": [
+    {"mark": "bar"},
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "xOffset": 3,
+        "aria": false
+      },
+      "encoding": {
+        "text": {
+          "field": "FacturaciónFormateado",
+          "type": "nominal"
+        },
+        "color": {"value": "black"}
+      }
+    }
+  ]
+
+
+
+
